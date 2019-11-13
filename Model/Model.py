@@ -25,7 +25,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import mean_squared_log_error,mean_squared_error, r2_score,mean_absolute_error # for regression
 from sklearn.metrics import accuracy_score,precision_score,recall_score,f1_score  # for classification
 
-df = pd.read_csv("C:\\Users\\gayatri.k\\Downloads\\bikes_data\\data\\Created_data.csv")
+df = pd.read_csv("\\Created_data.csv")
 df.isnull().sum() 
 df.describe()
 sns.boxplot(data=df[['No_of_trips_started', 'No_of_trips_ended','Net_rateforday',
